@@ -1,93 +1,85 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div class="box">
-        <div class="n">
-            <img src="https://s3-alpha-sig.figma.com/img/b0c1/e7ba/6ff2fa88c6df806d42e489cf645b02ec?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ko3BL0APGOvGl4AjYVg9-Hs~9SJHRAA~~6NU96MGrQG95K0fbgR-ce-0OW5-8Pj2uLP2vN~szZu7inmCtnjyWugVEgpwUir28X5wl5FOFhiIAEXDgPlhs0PmuVhf0on-b7sIHppk6q7nq7GtNmiMj~e1llGVO~OLpZTCnC2SMN3zRfJvd91QA7u2DmgULNmWvCte9HAjC1t-OLkK5sTvjKWMG94pfr1TGvFs2KYWhuAotv4VIvqcPJWF-3HKsNNME2XGZBrBMtw~oEHjiHMBbmigBRLzVU1JFKcfCdHgwq76QNIg1zfnrRV2Ntb03UKGAaLDYf4QyY8Lm-8kDL1tMQ__" alt="">
-            <div class="numberOutline">
-                <h6 class="number">1</h6>
-            </div>
-            <h4 class="name">Floyd Mayweather</h4>
-            <div class="netWorth">Boxing, $400 million</div>
-        </div>
-        <div class="n">
-            <img src="https://s3-alpha-sig.figma.com/img/ddc9/6843/2549df4339ac366ba4f0358f0f539219?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Fy6asyQnr8dVLdDpv4FLGnz0OsZ4DyjHb4Y9dhrXjoGHIlhrc51kKw9-q~L1ERNpRCLPIS41fnVZZMQcxmUOO-NG11lmxOjIjaf4jZYAd87NcsYfc8rkq7xGAxGPEXqPRAKbPAr1mufc1VnCKP0783rRlnxbKxthnEXloqnVNxzVdWK6PEz8P-bWJXsUQ-JgEB1n0grXnyfxiNzHu6YTtWXuw6iDJgdYj9QgKoo3o2jEtGbZzn0Vyw~53kTehfbf2uS0RV3mIjnGN5ZCXHqbgQXHRFvED1vN4-XP6GnlyaVZ5EtAzy4ddc0ocUJu8dNYWLwvzV4trMlg6wnPDDHbxw__" alt="">
-            <div class="numberOutline">
-                <h6 class="number">2</h6>
-            </div>
-            <h4 class="name">Lionel Messi</h4>
-            <div class="netWorth">Soccer, $850 Million</div>
-        </div>
-        <div class="n">
-            <img src="https://s3-alpha-sig.figma.com/img/6605/8576/a36f9b7c5f67ac87062b2f3582e5602e?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=k023pR5l57u-onERpuOfHoglEDybafn4q9Dr9EJFK~9r0PFpZvbCDEK6inzQxHfhMid4FJLJ2aECa8BsHGoA2~YVTirs3bfEx2TeeqJEz1X1Vz6JTtZHctmLSxyNJ5VhKLHlz8Q6BvA18wneO5Q3DTncjRB3mvaP98xqbgJCpLdc-avKSF5xhSuxmMu0aW9tmLaZVbooQc-2ZI3bVHhzCTnCYq6J5nDAGMa15Na17~d5v81pW0KlUI8qbXiSsLZb9XYXjrfi1q0KIodSglWpnkEcpPEhTbw6itVkzXYq-6i6KCQDUulZoew1wWhEwEUGGsTQAMwQFp4JzD0KXXnQhw__" alt="">
-            <div class="numberOutline">
-                <h6 class="number">3</h6>
-            </div>
-            <h4 class="name">Cristiano Ronaldo</h4>
-            <div class="netWorth">Soccer, $800 Million</div>
-        </div>
-        <div class="n">
-            <img src="https://s3-alpha-sig.figma.com/img/3be0/8a47/418f41e22cffda90a1e9ab15c506487d?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nqV4rNk3ilyXFukIgqyHFQW29rrhFDYIuj7hHHj0~gLR8O5Ao5~q8PfyXfR7eQSnofPV6xtPVABUA60oDZ6xFZ9d6hQZK5Oq-ZW8ryBYsvRYN3VGJr55kfHIbmW1wVMfpfXQf91dw08qoWgsWlvUjc5igN7fw1C4EvIA20lxDXcZIkhylm7gL96kS~-xurf32nT6fZWX5Nwz8TO3x91EQYYKTgm5wK5Wjjh5gYfvZdIGQ6erw2i7mucDPnzVbcmwA7tl51sThgDGK~x5ta~qnSCA7yL-16G26SgSwaKj-ukM9SCgnmQiRLlHGnCM6oDWm36NQk2Gvc2enGl3HiuAsQ__" alt="">
-            <div class="numberOutline">
-                <h6 class="number">4</h6>
-            </div>
-            <h4 class="name">Conor McGregor</h4>
-            <div class="netWorth">Boxing, $200 Million</div>
-        </div>
-        <div class="n">
-            <img src="https://s3-alpha-sig.figma.com/img/5198/8501/5b4727aea5d0966afbe0c00c0e9e9867?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=L88dcbBHlvIXtqpI4wRWZ2XrFD6yMrrNcNkt1KqzwkIIDQkNrveHBbCDNk6o91RdbMoBMmVVMcjhr4UQ5WLSGp8r-eWftU61Hd-UUCkMGAYGwysKxbOW6Ap6T0JPRZFZle8ITf8c3ONACybuiMzX6V7OvDwIaErIQnmA2VnNvCv3bvnNCm4aGGk7Y914M9E2cwQT9aFerkcLpoC8TpMmfj0S9Z5hT4I7Mg~iRmiNVuNjuutverSsMkm1gJ1dWWTiOwHpZnoxggwLiLU6sxm8YgKqW77k-bndJtdUcw-F4VCiTj1hMCh~FrTbORrY42CXrqwURod-ESAsUPIVOH8PVQ__" alt="">
-            <div class="numberOutline">
-                <h6 class="number">5</h6>
-            </div>
-            <h4 class="name">Neymar</h4>
-            <div class="netWorth">Soccer, $350 Million</div>
-        </div>
-        <div class="n">
-            <img src="https://s3-alpha-sig.figma.com/img/d625/7e35/7150a318981705e29eb03437c34c52d5?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ICIm-yzGhOC-Q5L7Y4UXv9~kH43Cys3AFbMmcHzCjZnlInUf-zuWQYkONtVPMi4u-InxBmruCfRTqat3kW2P7scUbZIxu7OrgYFYCTHgUSolbLpZ3qE7Dz0XxXJItrCTKvt9RWz3S79ePgX02kME5nIdVh~l91DQuUzTJW0q1~~13oHyppTh666rwwYLZiTUAXLMbyAo-EK349s8zkbtXqeFk6n-E-JYICKOMGoUM5RGFx2Gog2V1ffsCujyJNmhY3FFeipE7HPEYNeQ4lHYIFHxo63pseXVIIekxbe8ISPW9jZyq0K0F-Oi7ytaVTycusICa28~S2rkUy4aSo6N8w__" alt="">
-            <div class="numberOutline">
-                <h6 class="number">6</h6>
-            </div>
-            <h4 class="name">LeBron James</h4>
-            <div class="netWorth">Basketball, $800 Million</div>
-        </div>
-        <div class="n">
-            <img src="https://s3-alpha-sig.figma.com/img/d8a2/0b4c/e5774d15fa9852b72bbede3b6617c091?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dhTT7PkKXl8ydOkAye1wg~n9AIB4HKblcL14VTLSsyIEHo7l8y1M02CvdXWuous53ao6MegrpawLKKyrteM898jb4RKoYoeWxgk0xyInFSGEbLXJBRSfLVd2O6lbs4RJ5Mo0BUeuin24jrWcHv0UIkzu4aKukhXWMggY35z-fIA-3ra8hnmQ7lMw5jAWnZT1GhZpkNPNEraCB6eZ2Lm-qfyu-7TIqD4OGxSnP8WnpdbIMhm0gnxiwrRHf8CgsQOpW8gsfw0bYM-TIcrC-XqMZG55tvjGt3bB9-R3YbpNfyicONdSWWc5488SRBd4p7vajOZID7PYdrS1R05Z47Gp0g__" alt="">
-            <div class="numberOutline">
-                <h6 class="number">7</h6>
-            </div>
-            <h4 class="name">Roger Federer</h4>
-            <div class="netWorth">Tennis, $550 Million</div>
-        </div>
-        <div class="n">
-            <img src="https://s3-alpha-sig.figma.com/img/37b0/1673/4175ff4a9b42632b0f532d71d7bc8a68?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZkLMLgbdxQ6A~UEiBPTvSVHQZq3khfpgF7LyKbg1DmqzlGWPJ7o2QGDRjWVChVcw4CFp--JRvLeTA5TFWb6DNh9UV2ENFshGxZ~Hlo0C-KsIGpXHNG6mptVAanrqbZ-Nsn8Z5tZg~5Cnl9Swyt0cxz9lSSlMqIpVmr4EKUHhh5eSLo4zRGqj1T9ZQ8mU6AKSHreaAupTwmvJeBtMbse6Md9usQdnBVbT4T-EX9BDRu9gabcecb-PfRS~Q4zn8KgBC6LqFhjJbcfetQJUG9bWS6o6EZUxSbcAn4FCoSoRvNUyq1-kebjkFYLQgNFyYx3RCZ3B7OJ7V3E4RG9VMrxqzw__" alt="">
-            <div class="numberOutline">
-                <h6 class="number">8</h6>
-            </div>
-            <h4 class="name">Stephen Curry</h4>
-            <div class="netWorth">Basketball, $240 Million</div>
-        </div>
-        <div class="n">
-            <img src="https://s3-alpha-sig.figma.com/img/e582/b825/68563701da8fc0d0c6c03dd537ca8cc8?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=M8am-gUE9z6MLrMfR2JjMaApVVGXK7mNDVObcIT61t8LR9~WpzHsoucRSrGIOo2RbI83bEn5rIqcaIRy4TZqKr~29Nay93pJrcggQYPuytRdQYa-v34QuwKjN8Df-IMfZS0miOvdkS7EbR0RK6SHQ8uBfzQE1EXFnYhEK3PrcYqtnQeLdvG6HmcOj4JC8Ii2r5Nin7tu-x~QJfcWrIO9vMseFJAtMgPqQvDQFF~PbRESEX1w9h1CvBSvcZNgL2lqRZVqUrgyhP56lYZsxwwJUliWCHKtXTvwb19xozrkjLd9B1aT32XtuuyMQbWwxdLDLTaxqbcreG8NG89LqDTKlg__" alt="">
-            <div class="numberOutline">
-                <h6 class="number">9</h6>
-            </div>
-            <h4 class="name">Matt Ryan</h4>
-            <div class="netWorth">Football, $70 Million</div>
-        </div>
-        <div class="n">
-            <img src="https://s3-alpha-sig.figma.com/img/3f48/49af/3b568bc9e2e072bdb0ab084a5a733712?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=c0K-B~Sebj2zR~bNDQu-WvLJaNawnhPdJtncb1vmV45LrbipM6SlNWIqtj6olhCZTEJNNCL23RUXWeqL8prvb14OgtwpnvSAroT6looZ1nDnkaysGNYiz89FBWGths~DKuuZCnBhEJj9Xn8zsvuiXP3W9REDBxdp8Ge-6jPnj9hoPastqNSi4qNonTS2WYbys8kbjTFH0At5qN5mESB~cYvnLQ~c4JJUTAw56aWtL7YDsYtO1eNB64U-uZv2HFoumpgq4dIeoDOWn2~aT88-BP3UfOvM-CqKZQvNUbn~8yFnu9C-34cTQMeSyK5zji8rFMFkoybVjcadGKV~4V-DAA__" alt="">
-            <div class="numberOutline">
-                <h6 class="number">10</h6>
-            </div>
-            <h4 class="name">Matthew Stafford</h4>
-            <div class="netWorth">Football, $150 Million</div>
-        </div>
-    </div>
-</body>
-</html>
+*{
+    margin:0;
+    padding:0;
+}
+.box{
+    margin: 30px auto;
+    display:flex;
+    flex-wrap:wrap;
+    gap:30px;
+}
+.n{
+    Width:200px;
+    height: 231px;
+    border-radius:10px;
+    overflow: hidden;
+    transition: 1s;
+}
+img{
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+    border-radius:50%;
+}
+.numberOutline{
+    width: 32px;
+    height: 32px;
+    margin:-120px 0 0 158px;
+    background:white;
+    position:absolute;
+    border-radius:50%;
+}
+.number{
+    font-family: arial;
+    font-size:16px;
+    line-height: 18.4px;
+    text-align:center;
+    color:#8B0000;
+    margin-top: 6.8px;
+}
+.name{
+    font-family: arial;
+    font-size:20px;
+    line-height: 23px;
+    text-align:center;
+    color:#2F4F4F;
+    margin-top:8px;
+}
+.netWorth{
+    font-family: arial;
+    font-size:18px;
+    line-height: 20.7px;
+    text-align:center;
+    color:#2F4F4F;
+    margin-top:9px;
+}
+.n:hover{
+    background: #EEEEEE;
+    height:287px;
+}
+.n:hover img{
+    border-radius: 60px;;
+}@media screen and (min-width: 500px) {
+    .box{
+        Width:430px;
+        height:1320px;
+    }
+}
+@media screen and (min-width: 750px) {
+    .box{
+        Width:430px;
+        height:1320px;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .box{
+        Width:890px;
+        height:780px;
+    }
+}
+@media screen and (min-width: 1500px) {
+    .box{
+        Width:890px;
+        height:780px;
+    }
+}
