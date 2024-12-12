@@ -1,69 +1,85 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-
-<body>
-    <div class="b">
-        <div class="box">
-            <div class="img-w">
-                <img src="./6ff2fa88c6df806d42e489cf645b02ec.jfif.jpg" alt="">
-                <div class="txt">Floyd Mayweather</div>
-                <div class="c">1</div>
-            </div>
-            <div class="img-w">
-                <img src="./2549df4339ac366ba4f0358f0f539219.jfif.jpg" alt="">
-                <div class="txt">Lionel Messi</div>
-                <div class="c">2</div>
-            </div>
-            <div class="img-w">
-                <img src="./a36f9b7c5f67ac87062b2f3582e5602e.jfif.jpg" alt="">
-                <div class="txt">Cristiano Ronaldo</div>
-                <div class="c">3</div>
-            </div>
-            <div class="img-w">
-                <img src="./418f41e22cffda90a1e9ab15c506487d.jfif.jpg" alt="">
-                <div class="txt">Conor McGregor</div>
-                <div class="c">4</div>
-            </div>
-            <div class="img-w">
-                <img src="./5b4727aea5d0966afbe0c00c0e9e9867.jfif.jpg" alt="">
-                <div class="txt">Neymar</div>
-                <div class="c">5</div>
-            </div>
-            <div class="img-w">
-                <img src="./7150a318981705e29eb03437c34c52d5.jfif.jpg" alt="">
-                <div class="txt">LeBron James</div>
-                <div class="c">6</div>
-            </div>
-            <div class="img-w">
-                <img src="./e5774d15fa9852b72bbede3b6617c091.jfif.jpg" alt="">
-                <div class="txt">Roger Federer</div>
-                <div class="c">7</div>
-            </div>
-            <div class="img-w">
-                <img src="./4175ff4a9b42632b0f532d71d7bc8a68.jfif.jpg" alt="">
-                <div class="txt">Stephen Curry</div>
-                <div class="c">8</div>
-            </div>
-            <div class="img-w">
-                <img src="./68563701da8fc0d0c6c03dd537ca8cc8.jfif.jpg" alt="">
-                <div class="txt">Matt Ryan</div>
-                <div class="c">9</div>
-            </div>
-            <div class="img-w">
-                <img src="./3b568bc9e2e072bdb0ab084a5a733712.jfif.jpg" alt="">
-                <div class="txt">Matthew Stafford</div>
-                <div class="c">10</div>
-            </div>
-        </div>
-    </div>
-
-</body>
-
-</html>
+*{
+    margin:0;
+    padding:0;
+}
+.box{
+    margin: 30px auto;
+    display:flex;
+    flex-wrap:wrap;
+    gap:30px;
+}
+.n{
+    Width:200px;
+    height: 231px;
+    border-radius:10px;
+    overflow: hidden;
+    transition: 1s;
+}
+img{
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+    border-radius:50%;
+}
+.numberOutline{
+    width: 32px;
+    height: 32px;
+    margin:-120px 0 0 158px;
+    background:white;
+    position:absolute;
+    border-radius:50%;
+}
+.number{
+    font-family: arial;
+    font-size:16px;
+    line-height: 18.4px;
+    text-align:center;
+    color:#8B0000;
+    margin-top: 6.8px;
+}
+.name{
+    font-family: arial;
+    font-size:20px;
+    line-height: 23px;
+    text-align:center;
+    color:#2F4F4F;
+    margin-top:8px;
+}
+.netWorth{
+    font-family: arial;
+    font-size:18px;
+    line-height: 20.7px;
+    text-align:center;
+    color:#2F4F4F;
+    margin-top:9px;
+}
+.n:hover{
+    background: #EEEEEE;
+    height:287px;
+}
+.n:hover img{
+    border-radius: 60px;;
+}@media screen and (min-width: 500px) {
+    .box{
+        Width:430px;
+        height:1320px;
+    }
+}
+@media screen and (min-width: 750px) {
+    .box{
+        Width:430px;
+        height:1320px;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .box{
+        Width:890px;
+        height:780px;
+    }
+}
+@media screen and (min-width: 1500px) {
+    .box{
+        Width:890px;
+        height:780px;
+    }
+}
